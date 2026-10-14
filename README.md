@@ -1,21 +1,3 @@
-> **TrustLab independent copy.** Original source, authorship, licenses and Git history are preserved from [Messi-Q/IR-Fuzz](https://github.com/Messi-Q/IR-Fuzz).
-
-## Download the original executable
-
-The GitHub importer copied the Git LFS pointer for `fuzz`, but did not transfer LFS storage. Download the unchanged original executable from [Releases](https://github.com/trustlab-zjsu/IR-Fuzz/releases/tag/imported-artifacts-2026-10-13) after cloning:
-
-```bash
-GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/trustlab-zjsu/IR-Fuzz.git
-cd IR-Fuzz
-curl -fL https://github.com/trustlab-zjsu/IR-Fuzz/releases/download/imported-artifacts-2026-10-13/fuzz -o fuzz
-echo 'b56db2a12916e42332ec4f5288dcdf13b91ecf1ab9842fd07255d63a27948e1a  fuzz' | sha256sum --check
-chmod +x fuzz
-```
-
-Continue with the original dependencies and usage instructions below. This executable is copied unchanged; it has not been rebuilt or independently tested by TrustLab.
-
----
-
 # IR-Fuzz
 
 Rethinking Smart Contract Fuzzing: Fuzzing With Invocation Ordering and Important Branch Revisiting.
